@@ -7,7 +7,7 @@ class Solution:
         res = 0
 
         while l<=r:
-            m = 1 + ((r-l)//2)
+            m = l + ((r-l)//2)
             if m**2 > x:
                 r = m - 1
             elif m**2 < x:
